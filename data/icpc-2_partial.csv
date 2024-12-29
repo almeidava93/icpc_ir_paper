@@ -1,0 +1,727 @@
+,code,title
+0,-30,Exame médico/avaliação de saúde - completo
+1,-31,Exame médico/avaliação de  saúde - parcial
+2,-32,Teste de sensibilidade
+3,-33,Exame microbiológico/imunológico
+4,-34,Análise de sangue
+5,-35,Análise de urina
+6,-36,Análise de fezes
+7,-37,Citologia esfoliativa/histologia
+8,-38,Outras análises laboratoriais NE
+9,-39,Teste de função física
+10,-40,Endoscopia diagnóstica
+11,-41,Radiologia diagnóstica
+12,-42,Eletrocardiograma
+13,-43,Outros procedimentos diagnósticos
+14,-44,Vacinação/medicação preventiva
+15,-45,Educação em saúde/aconselhamento/dieta
+16,-46,Consulta com profissional de APS
+17,-47,Consulta com especialista
+18,-48,Esclarecimento/discussão do motivo da consulta
+19,-49,Outros procedimentos preventivos
+20,-50,Medicação/prescrição/renovação/ injeção
+21,-51,Incisão/drenagem/aspiração/remoção
+22,-52,Excisão /biopsia/remoção/debridamento/cauterização
+23,-53,Cateterização/intubação
+24,-54,Reparação/sutura/gesso/prótese
+25,-55,Injeção local /infiltração
+26,-56,Ligadura/compressa /tamponamento
+27,-57,Medicina física/reabilitação
+28,-58,Aconselhamento/escuta terapêutica
+29,-59,Outros procedimentos terapêuticos/pequena cirurgia NE
+30,-60,Resultados de análises/procedimentos
+31,-61,Contra referência de outro prestador - resultado de exames/teste/ análise
+32,-62,Procedimento administrativo
+33,-63,Consulta de seguimento não especificada
+34,-64,Episódio / problema iniciado pelo prestador
+35,-65,Episódio / problema iniciado por outro NE
+36,-66,Referenciado a outro prestador /enfermeiro /assistente social/terapeuta
+37,-67,Referenciado para médico/especialista/clínica/hospital
+38,-68,Outras referenciações NE
+39,-69,Outro motivo de consulta NE
+40,A01,Dor generalizada /múltipla
+41,A02,Arrepios/ calafrios
+42,A03,Febre
+43,A04,Debilidade/cansaço geral/fadiga
+44,A05,Sentir-se doente
+45,A06,Desmaio/síncope
+46,A07,Coma
+47,A08,Inchaço
+48,A09,Problemas de sudorese
+49,A10,Sangramento/Hemorragia NE
+50,A11,Dores torácicas NE
+51,A13,Receio/Medo do tratamento
+52,A16,Criança irritável
+53,A18,Preocupação com aparência
+54,A20,Pedido/discussão eutanásia
+55,A21,Fator de risco de malignidade
+56,A23,Fator de risco NE
+57,A25,Medo de morrer/medo da morte
+58,A26,Medo de câncer NE
+59,A27,Medo de outra doença NE
+60,A28,Limitação funcional/incapacidade NE
+61,A29,Outros sinais/sintomas gerais
+62,A70,Tuberculose
+63,A71,Sarampo
+64,A72,Varicela
+65,A73,Malária
+66,A74,Rubéola
+67,A75,Mononucleose infecciosa
+68,A76,Outro exantema viral
+69,A77,Dengue e outras doenças virais NE
+70,A78,Hanseníase e outras doenças infecciosas NE
+71,A79,Carcinomatose (localização primária desconhecida)
+72,A80,Lesão traumática/acidente NE
+73,A81,Politraumatismos/ferimentos múltiplos
+74,A82,Efeito secundário de lesão traumática
+75,A84,Intoxicação por medicamento
+76,A85,Efeito adverso de fármaco dose correta
+77,A86,Efeito tóxico de substância não medicinal
+78,A87,Complicações de tratamento médico
+79,A88,Efeito adverso de fator físico
+80,A89,Efeito da prótese
+81,A90,Malformação congênita NE/múltiplas
+82,A91,Investigação com resultado anormal NE
+83,A92,Alergia/reação alérgica NE
+84,A93,Recém nascido prematuro
+85,A94,"Morbidade perinatal, outra"
+86,A95,Mortalidade perinatal
+87,A96,Morte
+88,A97,Sem doença
+89,A98,Medicina preventiva/manutenção da saúde
+90,A99,Outras doenças gerais NE
+91,B02,Gânglio linfático aumentado/doloroso
+92,B04,Sinais/sintomas sangue
+93,B25,Medo de VIH/ HIV/SIDA/ AIDS
+94,B26,Medo de câncer no sangue/linfático
+95,B27,Medo de outras doenças do sangue /vasos linfáticos
+96,B28,Limitação funcional/incapacidade
+97,B29,Outros sinais/ sintomas do sangue/ sistema linfático/ baço NE
+98,B70,Linfadenite aguda
+99,B71,Linfadenite crónica NE
+100,B72,Doença de Hodgkin/linfomas
+101,B73,Leucemia
+102,B74,Outra neoplasia maligna no sangue
+103,B75,Neoplasia benigna NE
+104,B76,Rotura traumática do baço
+105,B77,Outras lesões traumáticas do sangue/linfa/baço
+106,B78,Anemia hemolítica hereditária
+107,B79,Outra malformação congênita do sangue/linfática
+108,B80,Anemia por deficiência de ferro
+109,B81,Anemia perniciosa/deficiência de folatos
+110,B82,Outras anemias NE
+111,B83,Púrpura/defeitos de coagulação
+112,B84,Glóbulos brancos anormais
+113,B87,Esplenomegalia
+114,B90,Infecção por VIH/ HIV/SIDA/ AIDS
+115,B99,Outra doença do sangue/linfáticos/baço
+116,D01,Dor abdominal generalizada/cólicas
+117,D02,"Dores abdominais, epigástricas"
+118,D03,Azia/ Queimação
+119,D04,Dor anal/retal
+120,D05,Irritação perianal
+121,D06,Outras dores abdominais localizadas
+122,D07,Dispepsia/indigestão
+123,D08,Flatulência /gases/eructações
+124,D09,Náusea
+125,D10,Vomito
+126,D11,Diarreia
+127,D12,Obstipação
+128,D13,Icterícia
+129,D14,Hematêmese/vómito sangue
+130,D15,Melena
+131,D16,Hemorragia retal
+132,D17,Incontinência fecal
+133,D18,Alterações nas fezes/mov. intestinais
+134,D19,Sinais/sintomas dos dentes/gengivas
+135,D20,Sinais/sintomas da boca/língua/lábios
+136,D21,Problemas de deglutição
+137,D23,Hepatomegalia
+138,D24,Massa abdominal NE
+139,D25,Distensão abdominal
+140,D26,Medo de câncer no aparelho digestivo
+141,D27,Medo de outras doenças aparelho digestivo
+142,D28,Limitação funcional/incapacidade
+143,D29,Outros sinais/sintomas digestivos
+144,D70,Infecção gastrointestinal
+145,D71,Caxumba/parotidite epidêmica
+146,D72,Hepatite viral
+147,D73,"Gastroenterite, presumível infecção"
+148,D74,Neoplasia maligna do estômago
+149,D75,Neoplasia maligna do cólon/reto
+150,D76,Neoplasia maligna do pâncreas
+151,D77,Neoplasia maligna do aparelho digestivo NE
+152,D78,Neoplasia benigna do aparelho digestivo/incerta
+153,D79,Corpo estranho no aparelho digestivo
+154,D80,Outras lesões traumáticas
+155,D81,Malformações congênitas do aparelho digestivo
+156,D82,Doença dos dentes/gengivas
+157,D83,Doença da boca/língua/lábios
+158,D84,Doença do esôfago
+159,D85,Úlcera do duodeno
+160,D86,"Úlcera péptica, outra"
+161,D87,Alterações funcionais estômago
+162,D88,Apendicite
+163,D89,Hérnia inguinal
+164,D90,Hérnia de hiato /diafragmática
+165,D91,"Hérnia abdominal, outras"
+166,D92,Doença diverticular intestinal
+167,D93,Síndrome do cólon irritável
+168,D94,Enterite crónica/colite ulcerosa
+169,D95,Fissura anal / abcesso perianal
+170,D96,Lombrigas /outros parasitas
+171,D97,Doenças do fígado /NE
+172,D98,"Colecistite, colelitiase"
+173,D99,Outra doença do aparelho digestivo
+174,F01,Dor no olho
+175,F02,Olho vermelho
+176,F03,Secreção ocular
+177,F04,Moscas volantes/pontos luminosos/escotomas/ manchas
+178,F05,Outras perturbações visuais
+179,F13,Sensações oculares anormais
+180,F14,Movimentos oculares anormais
+181,F15,Aparência anormal nos olhos
+182,F16,Sinais/sintomas das pálpebras
+183,F17,Sinais/sintomas relacionados a óculos
+184,F18,Sinais/sintomas relacionados a lentes de contato
+185,F27,Medo de doença ocular
+186,F28,Limitação funcional/incapacidade
+187,F29,Outros sinais/sintomas oculares
+188,F70,Conjuntivite infecciosa
+189,F71,Conjuntivite alérgica
+190,F72,Blefarite/hordéolo/calázio
+191,F73,Outras infecções/inflamações oculares
+192,F74,Neoplasia do olho/anexos
+193,F75,Contusão/hemorragia ocular
+194,F76,Corpo estranho ocular
+195,F79,Outras lesões traumáticas oculares
+196,F80,Obstrução canal lacrimal da criança
+197,F81,Outras malformações congênitas do olho
+198,F82,Descolamento da retina
+199,F83,Retinopatia
+200,F84,Degeneração macular
+201,F85,Ulcera da córnea
+202,F86,Tracoma
+203,F91,Erro de refração
+204,F92,Catarata
+205,F93,Glaucoma
+206,F94,Cegueira
+207,F95,Estrabismo
+208,F99,Outra doenças oculares/anexos
+209,H01,Dor de ouvidos
+210,H02,Problemas de audição
+211,H03,"Acufeno, zumbidos, ruído, assobios"
+212,H04,Secreção no ouvido
+213,H05,Hemorragia no ouvido
+214,H13,Sensação de ouvido tapado
+215,H15,Preocupação com a aparência das orelhas
+216,H27,Medo de doença do ouvido
+217,H28,Limitação funcional/incapacidade
+218,H29,Outros sinais/sintomas ouvido
+219,H70,Otite externa
+220,H71,Otite media aguda/miringite
+221,H72,Otite média serosa
+222,H73,Infecção da Trompa de Eustáquio
+223,H74,Otite media crónica
+224,H75,Neoplasia do ouvido
+225,H76,Corpo estranho do ouvido
+226,H77,Perfuração do tímpano
+227,H78,Traumatismo superficial do ouvido
+228,H79,Outros traumatismos do ouvido
+229,H80,Malformações congênitas do ouvido
+230,H81,Cerúmen no ouvido em excesso
+231,H82,Síndrome vertiginosa
+232,H83,Otoesclerose
+233,H84,Presbiacusia
+234,H85,Lesão acústica
+235,H86,Surdez
+236,H99,Outra doença do ouvido/mastóide
+237,K01,Dor atribuída ao coração
+238,K02,Sensação de pressão/aperto atribuída ao coração
+239,K03,Dores atribuídas ao aparelho circulatório NE
+240,K04,Palpitações/percepção dos batimentos cardíacos
+241,K05,Outras irregularidades dos batimentos cardíacos
+242,K06,Veias proeminentes
+243,K07,Tornozelos inchados/edema
+244,K22,Fator de risco para doença cardiovascular
+245,K24,Medo de doença cardíaca
+246,K25,Medo de hipertensão
+247,K27,Medo de outra doença cardiovascular
+248,K28,Limitação funcional/incapacidade
+249,K29,Outros sinais/sintomas cardiovasculares
+250,K70,Doença infecciosa do aparelho circulatório
+251,K71,Febre reumática/cardiopatia
+252,K72,Neoplasia do aparelho circulatório
+253,K73,Malformações congênitas do aparelho circulatório
+254,K74,Doença cardíaca isquémica com angina
+255,K75,Infarto ou Enfarte agudo miocárdio
+256,K76,Doença cardíaca isquémica sem angina
+257,K77,Insuficiência cardíaca
+258,K78,Fibrilação/flutter auricular/ atrial
+259,K79,Taquicardia Paroxística
+260,K80,Arritmia cardíaca NE
+261,K81,Sopro cardíaco/arterial NE
+262,K82,Doença cardiopulmonar
+263,K83,Doença valvular cardíaca NE
+264,K84,Outras doenças cardíacas
+265,K85,Pressão arterial elevada
+266,K86,Hipertensão sem complicações
+267,K87,Hipertensão com complicações
+268,K88,Hipotensão postural
+269,K89,Isquêmia/ acidente cerebral transitória(o)
+270,K90,Trombose/acidente vascular cerebral
+271,K91,Doença vascular cerebral
+272,K92,Aterosclerose/doença vascular periférica
+273,K93,Embolia pulmonar
+274,K94,Flebite/tromboflebite
+275,K95,Veias varicosas da perna
+276,K96,Hemorróidas
+277,K99,Outras doenças do aparelho circulatório
+278,L01,Sinais/sintomas do pescoço
+279,L02,Sinais/sintomas da região dorsal
+280,L03,Sinais/sintomas da região lombar
+281,L04,Sinais/sintomas do tórax
+282,L05,Sinais/sintomas da axila
+283,L07,Sinais/sintomas da mandíbula
+284,L08,Sinais/sintomas dos ombros
+285,L09,Sinais/sintomas dos braços
+286,L10,Sinais/sintomas dos cotovelos
+287,L11,Sinais/sintomas dos punhos
+288,L12,Sinais/sintomas das mãos e dedos
+289,L13,Sinais/sintomas do quadril
+290,L14,Sinais/sintomas da coxa/perna
+291,L15,Sinais/sintomas do joelho
+292,L16,Sinais/sintomas do tornozelo
+293,L17,Sinais/sintomas do pé/dedos pé
+294,L18,Dores musculares
+295,L19,Sinais/sintomas musculares NE
+296,L20,Sinais/sintomas das articulações NE
+297,L26,Medo de câncer no aparelho músculo-esquelético
+298,L27,"Medo de doença no aparelho músculo-esquelético, outro"
+299,L28,Limitação funcional/incapacidade
+300,L29,Outros sinais/sintomas do aparelho músculo-esquelético
+301,L70,Infecções do aparelho músculo-esquelético
+302,L71,Neoplasia maligna do aparelho músculo-esquelético
+303,L72,Fratura: rádio/cúbito
+304,L73,Fratura: tíbia/perônio/ fíbula
+305,L74,Fratura: osso da mão/pé
+306,L75,Fratura: fémur
+307,L76,Outras fraturas
+308,L77,Entorses e distensões do tornozelo
+309,L78,Entorses e distensões do joelho
+310,L79,Entorses e distensões das articulações NE
+311,L80,Luxação/subluxação
+312,L81,Traumatismos do aparelho musculoesquelético NE
+313,L82,Malformações congênitas do aparelho músculo-esquelético
+314,L83,Doenças ou síndromes da coluna cervical
+315,L84,Doenças ou síndromes da coluna sem irradiação de dor
+316,L85,Deformação adquirida da coluna
+317,L86,Síndrome vertebral com irradiação dor
+318,L87,Bursite/tendinite/sinovite NE
+319,L88,Artrite reumatóide/seropositiva
+320,L89,Osteoartrose do quadril
+321,L90,Osteoartrose do joelho
+322,L91,Outras osteoartroses
+323,L92,Síndrome do ombro doloroso
+324,L93,Cotovelo de tenista
+325,L94,Osteocondrose
+326,L95,Osteoporose
+327,L96,Lesão interna aguda do joelho
+328,L97,Neoplasia benigna/incertas
+329,L98,Malformação adquirida de um membro
+330,L99,Outra doença do aparelho músculo-esquelético
+331,N01,Cefaléia
+332,N03,Dores da face
+333,N04,Síndrome das pernas inquietas
+334,N05,Formigamento/ parestesia nos dedos das mãos/pés
+335,N06,Outras alterações da sensibilidade
+336,N07,Convulsões/ataques
+337,N08,Movimentos involuntários anormais
+338,N16,Alterações do olfato/gosto
+339,N17,Vertigens/tonturas
+340,N18,Paralisia/fraqueza
+341,N19,Perturbações da fala
+342,N26,Medo de câncer do sistema neurológico
+343,N27,Medo de outras doenças neurológicas
+344,N28,Limitação funcional/incapacidade
+345,N29,"Sinais/sintomas do sistema neurológico, outros"
+346,N70,Poliomielite
+347,N71,Meningite/encefalite
+348,N72,Tétano
+349,N73,Outra infecção neurológica
+350,N74,Neoplasia maligna do sistema neurológico
+351,N75,Neoplasia benigna do sistema neurológico
+352,N76,Neoplasia do sistema neurológico de natureza incerta
+353,N79,Concussão
+354,N80,Outras lesões cranianas
+355,N81,Outra lesão do sistema neurológico
+356,N85,Malformações congênitas
+357,N86,Esclerose múltipla
+358,N87,Parkinsonismo
+359,N88,Epilepsia
+360,N89,Enxaqueca
+361,N90,Cefaléia de cluster
+362,N91,Paralisia facial/paralisia de Bell
+363,N92,Nevralgia do trigémio
+364,N93,Síndrome do túnel do carpo/ Síndrome do canal cárpico
+365,N94,Neurite/ Nevrite/neuropatia periférica
+366,N95,Cefaléia tensional
+367,N99,Outras doenças do sistema neurológico
+368,P01,Sensação de ansiedade/nervosismo/tensão
+369,P02,Reação aguda ao estresse
+370,P03,Tristeza/ Sensação de depressão
+371,P04,Sentir/comportar-se de forma irritável/zangada
+372,P05,Sensação/comportamento senil
+373,P06,Perturbação do sono
+374,P07,Diminuição do desejo sexual
+375,P08,Diminuição da satisfação sexual
+376,P09,Preocupação com a preferência sexual
+377,P10,Gaguejar/balbuciar/tiques
+378,P11,Problemas de alimentação da criança
+379,P12,Molhar a cama/enurese
+380,P13,Encoprese/outros problemas de incontinência fecal
+381,P15,Abuso crônico de álcool
+382,P16,Abuso agudo de álcool
+383,P17,Abuso do tabaco
+384,P18,Abuso de medicação
+385,P19,Abuso de drogas
+386,P20,Alterações da memória
+387,P22,Sinais/sintomas relacionados ao comportamento da criança
+388,P23,Sinais/sintomas relacionados ao comportamento do adolescente
+389,P24,Dificuldades especificas de aprendizagem
+390,P25,Problemas da fase de vida de adulto
+391,P27,Medo de perturbações mentais
+392,P28,Limitação funcional/incapacidade
+393,P29,"Sinais/sintomas psicológicos, outros"
+394,P70,Demência
+395,P71,Outras psicoses orgânicas NE
+396,P72,Esquizofrenia
+397,P73,Psicose afetiva
+398,P74,Distúrbio ansioso/estado de ansiedade
+399,P75,Somatização
+400,P76,Perturbações depressivas
+401,P77,Suicídio/tentativa de suicídio
+402,P78,Neurastenia
+403,P79,Fobia/perturbação compulsiva
+404,P80,Perturbações de personalidade
+405,P81,Perturbação hipercinética
+406,P82,Estresse pós traumático
+407,P85,Retardo/ Atraso mental
+408,P86,"Anorexia nervosa, bulimia"
+409,P98,Outras psicoses NE
+410,P99,Outras perturbações psicológicas
+411,R01,Dor atribuída ao aparelho respiratório
+412,R02,"Dificuldade respiratória, dispneia"
+413,R03,Respiração ruidosa
+414,R04,Outros problemas respiratórios
+415,R05,Tosse
+416,R06,Hemorragia nasal/epistaxe
+417,R07,Espirro/congestão nasal
+418,R08,Outros sinais/sintomas nasais
+419,R09,Sinais/sintomas dos seios paranasais
+420,R21,Sinais/sintomas da garganta
+421,R23,Sinais/sintomas da voz
+422,R24,Hemoptise
+423,R25,Expectoração/mucosidade anormal
+424,R26,Medo de câncer do aparelho respiratório
+425,R27,Medo de outras doenças respiratórias
+426,R28,Limitação funcional/incapacidade
+427,R29,"Sinais/sintomas do aparelho respiratório, outros"
+428,R71,Tosse convulsa/ pertussis
+429,R72,Infecção estreptocócica da orofaringe
+430,R73,Abcesso/furúnculo no nariz
+431,R74,Infecção aguda do aparelho respiratório superior (IVAS)
+432,R75,Sinusite crónica/aguda
+433,R76,Amigdalite aguda
+434,R77,Laringite/traqueíte aguda
+435,R78,Bronquite/bronquiolite aguda
+436,R79,Bronquite crônica
+437,R80,Gripe
+438,R81,Pneumonia
+439,R82,Pleurite/derrame pleural
+440,R83,Outra infecção respiratória
+441,R84,Neoplasia maligna dos brônquios/pulmão
+442,R85,Outra neoplasia respiratória maligna
+443,R86,Neoplasia benigna respiratória
+444,R87,Corpo estranho nariz/laringe/brônquios
+445,R88,Outra lesão respiratória
+446,R89,Malformação congénita do aparelho respiratório
+447,R90,Hipertrofia das amígdalas/adenóides
+448,R92,Neoplasia respiratória NE
+449,R95,Doença pulmonar obstrutiva crónica
+450,R96,Asma
+451,R97,Rinite alérgica
+452,R98,Síndrome de hiperventilação
+453,R99,Outras doenças respiratórias
+454,S01,Dor/sensibilidade dolorosa da pele
+455,S02,Prurido
+456,S03,Verrugas
+457,S04,Tumor/inchaço localizado
+458,S05,Tumores/inchaços generalizados
+459,S06,Erupção cutânea localizada
+460,S07,Erupção cutânea generalizada
+461,S08,Alterações da cor da pele
+462,S09,Infecção dos dedos das mãos/pés
+463,S10,Furúnculo/carbúnculo
+464,S11,Infecção pós-traumática da pele
+465,S12,Picada ou mordedura de inseto
+466,S13,Mordedura animal/humana
+467,S14,Queimadura/escaldão
+468,S15,Corpo estranho na pele
+469,S16,Traumatismo/contusão
+470,S17,Abrasão/arranhão/bolhas
+471,S18,Laceração/corte
+472,S19,Outra lesão cutânea
+473,S20,Calos/calosidades
+474,S21,Sinais/sintomas da textura da pele
+475,S22,Sinais/sintomas das unhas
+476,S23,Queda de cabelo/calvície
+477,S24,Sinais/sintomas do cabelo/couro cabeludo
+478,S26,Medo de câncer de pele
+479,S27,Medo de outra doença da pele
+480,S28,Limitação funcional/incapacidade
+481,S29,"Sinais/sintomas da pele, outros"
+482,S70,Herpes zoster
+483,S71,Herpes simples
+484,S72,Escabiose/outras acaríases
+485,S73,Pediculose/outras infecções da pele
+486,S74,Dermatofitose
+487,S75,Monilíase oral/candidíase na pele
+488,S76,Outras infecções da pele
+489,S77,Neoplasias malignas da pele
+490,S78,Lipoma
+491,S79,Neoplasia cutânea benigna/incerta
+492,S80,Ceratose/ Queratose solar/queimadura solar
+493,S81,Hemangioma/linfangioma
+494,S82,Nevos/sinais da pele
+495,S83,"Lesões da pele congênitas, outras"
+496,S84,Impetigo
+497,S85,Cisto pilonidal/fistula
+498,S86,Dermatite seborreica
+499,S87,Dermatite/eczema atópico
+500,S88,Dermatite de contato/alérgica
+501,S89,Dermatite das fraldas
+502,S90,Pitiríase rosada
+503,S91,Psoríase
+504,S92,Doença das glândulas sudoríparas
+505,S93,Cisto sebáceo
+506,S94,Unha encravada
+507,S95,Molusco contagioso
+508,S96,Acne
+509,S97,Úlcera crónica da pele
+510,S98,Urticária
+511,S99,Outras doenças da pele
+512,T01,Sede excessiva
+513,T02,Apetite excessivo
+514,T03,Perda de apetite
+515,T04,Problemas alimentares de lactente/criança
+516,T05,Problemas alimentares do adulto
+517,T07,Aumento de peso
+518,T08,Perda de peso
+519,T10,Atraso do crescimento
+520,T11,Desidratação
+521,T26,Medo de câncer do sistema endócrino
+522,T27,Medo de outra doença endócrina/metabólica
+523,T28,Limitação funcional/incapacidade
+524,T29,"Sinais/sintomas endocrinológicos/metabolicos/nutricionais, outros"
+525,T70,Infecção endócrina
+526,T71,Neoplasia maligna da tiróide
+527,T72,Neoplasia benigna da tiróide
+528,T73,Outra neoplasia endócrina NE
+529,T78,Cisto do canal tiroglosso
+530,T80,Malformação congénita endócrina/metabólica
+531,T81,Bócio
+532,T82,Obesidade
+533,T83,Excesso de peso
+534,T85,Hipertiroidismo/tireotoxicose
+535,T86,Hipotiroidismo/mixedema
+536,T87,Hipoglicemia
+537,T89,Diabetes insulino-dependente
+538,T90,Diabetes não insulino-dependente
+539,T91,Deficiência vitamínica/nutricional
+540,T92,Gota
+541,T93,Alteração no metabolismo dos lípidos
+542,T99,Outras doenças endocrinológica/metabólica/nutricionais
+543,U01,Disúria/micção dolorosa
+544,U02,Micção frequente/urgência urinária/ polaciúria
+545,U04,Incontinência urinária
+546,U05,Outros problemas com a micção
+547,U06,Hematúria
+548,U07,Outros sinais/sintomas urinários
+549,U08,Retenção urinária
+550,U13,"Sinais/sintomas da bexiga, outros"
+551,U14,Sinais/sintomas dos rins
+552,U26,Medo de câncer no aparelho urinário
+553,U27,Medo de outra doença urinária
+554,U28,Limitação funcional/incapacidade
+555,U29,"Sinais/sintomas aparelho urinário, outros"
+556,U70,Pielonefrite
+557,U71,Cistite/outra infecção urinária
+558,U72,Uretrite
+559,U75,Neoplasia maligna do rim
+560,U76,Neoplasia benigna do rim
+561,U77,"Neoplasia maligna do aparelho urinário, outra"
+562,U78,Neoplasia benigna do aparelho urinário
+563,U79,Neoplasia do aparelho urinário NE
+564,U80,Lesões traumáticas do aparelho urinário
+565,U85,Malformação congénita do aparelho urinário
+566,U88,Glomerulonefrite/ sindrome nefrótica
+567,U90,Albuminúria/proteinúria ortostática
+568,U95,Cálculo urinário
+569,U98,Análise de urina anormal NE
+570,U99,Outras doenças urinárias
+571,W01,Questão sobre gravidez
+572,W02,Medo de estar grávida
+573,W03,Hemorragia antes do parto
+574,W05,Vómitos/náuseas durante a gravidez
+575,W10,Contracepção pós-coital
+576,W11,Contracepção oral
+577,W12,Contracepção intra-uterina/ Dispositivo Intrauterino/ DIU
+578,W13,Esterilização
+579,W14,Contracepção/outros
+580,W15,Infertilidade/subfertildade
+581,W17,Hemorragia pós-parto
+582,W18,Sinais/sintomas pós-parto
+583,W19,Sinais/sintomas da mama/lactação
+584,W21,Preocupação com a imagem corporal na gravidez
+585,W27,Medo de complicações na gravidez
+586,W28,Limitação funcional/incapacidade
+587,W29,"Sinais/sintomas da gravidez, outros"
+588,W70,Sepsis/infecção puerperal
+589,W71,Infecções que complicam a gravidez
+590,W72,Neoplasia maligna relacionada com gravidez
+591,W73,Neoplasia benigna/incerta relacionada com a gravidez
+592,W75,Lesões traumáticas que complicam a gravidez
+593,W76,Malformação congénita que complica a gravidez
+594,W78,Gravidez
+595,W79,Gravidez não desejada
+596,W80,Gravidez ectópica
+597,W81,Toxemia gravídica/ DHEG
+598,W82,Aborto espontâneo
+599,W83,Aborto provocado 
+600,W84,Gravidez de alto risco
+601,W85,Diabetes gestacional
+602,W90,Parto sem complicações de nascido vivo
+603,W91,Parto sem complicações de natimorto
+604,W92,Parto com complicações de nascido vivo
+605,W93,Parto com complicações de natimorto
+606,W94,Mastite puerperal
+607,W95,Outros problemas da mama durante gravidez/puerpério
+608,W96,Outras complicações do puerpério
+609,W99,Outros problemas da gravidez/parto
+610,X01,Dor genital
+611,X02,Dores menstruais
+612,X03,Dores intermenstruais
+613,X04,Relação sexual dolorosa na mulher
+614,X05,Menstruação escassa/ausente
+615,X06,Menstruação excessiva
+616,X07,Menstruação irregular/frequente
+617,X08,Hemorragia intermenstrual
+618,X09,Sinais/sintomas pré-menstruais
+619,X10,Desejo de alterar a data menstruação
+620,X11,Sinais/sintomas da menopausa/ climatério
+621,X12,Hemorragia pós-menopausa
+622,X13,Hemorragia pós-coital
+623,X14,Secreção vaginal
+624,X15,Sinais/sintomas da vagina
+625,X16,Sinais/sintomas da vulva
+626,X17,Sinais/sintomas da pélvis feminina
+627,X18,Dor na mama feminina
+628,X19,Tumor ou nódulo na mama feminina
+629,X20,Sinais/sintomas do mamilo da mulher
+630,X21,"Sinais/sintomas da mama feminina, outros"
+631,X22,Preocupação com a aparência da mama feminina
+632,X23,Medo de doença de transmissão sexual
+633,X24,Medo de disfunção sexual
+634,X25,Medo de câncer genital
+635,X26,Medo de câncer na mama
+636,X27,Medo de outra doença genital/mama
+637,X28,Limitação funcional/incapacidade
+638,X29,"Sinais/sintomas do aparelho genital feminino, outra"
+639,X70,Sífilis feminina
+640,X71,Gonorréia feminina
+641,X72,Candidíase genital feminina
+642,X73,Tricomoníase genital feminina
+643,X74,Doença inflamatória pélvica
+644,X75,Neoplasia maligna do colo
+645,X76,Neoplasia maligna da mama feminina
+646,X77,"Neoplasia maligna genital feminina, outra"
+647,X78,Fibromioma uterino
+648,X79,Neoplasia benigna da mama feminina/ fibroadenoma
+649,X80,Neoplasia benigna genital
+650,X81,"Neoplasia genital feminina, outra/NE"
+651,X82,Lesão traumática genital feminina
+652,X83,Malformações congênitas genitais
+653,X84,Vaginite/vulvite NE
+654,X85,Doença do colo NE
+655,X86,Esfregaço de Papanicolau/colpocitologia oncótica anormal
+656,X87,Prolapso utero-vaginal
+657,X88,Doença fibrocística da mama
+658,X89,Síndrome da tensão pré-menstrual
+659,X90,Herpes genital feminino
+660,X91,Condiloma acuminado feminino
+661,X92,Infecção por clamídia
+662,X99,"Doença genital feminina, outra"
+663,Y01,Dor no pênis
+664,Y02,Dor no escroto/testículos
+665,Y03,Secreção uretral
+666,Y04,"Sinais/sintomas do pênis, outros"
+667,Y05,"Sinais/sintomas do escroto/testículos, outros"
+668,Y06,Sinais/sintomas da próstata
+669,Y07,Impotência NE
+670,Y08,"Sinais/sintomas da função sexual masculina, outros"
+671,Y10,Infertilidade/subfertildade masculina
+672,Y13,Esterilização masculina
+673,Y14,"Planejamento familiar, outros"
+674,Y16,Sinais/sintomas da mama masculina
+675,Y24,Medo de disfunção sexual masculina
+676,Y25,Medo de doença sexualmente transmissível
+677,Y26,Medo de câncer genital masculino
+678,Y27,"Medo de doença genital masculina, outra"
+679,Y28,Limitação funcional/incapacidade
+680,Y29,"Sinais/sintomas, outros"
+681,Y70,Sífilis masculina
+682,Y71,Gonorréia masculina
+683,Y72,Herpes genital
+684,Y73,Prostatite/vesiculite seminal
+685,Y74,Orquite/epididimite
+686,Y75,Balanite/ Balanopostite
+687,Y76,Condiloma acuminado
+688,Y77,Neoplasia maligna da próstata
+689,Y78,"Neoplasia maligna genital masculina, outra"
+690,Y79,Neoplasia benigna genital masculina NE
+691,Y80,"Traumatismo genital masculino, outro"
+692,Y81,Fimose/prepúcio redundante
+693,Y82,Hipospádias
+694,Y83,Testículo não descido/ Criptorquidia/ Testículo ectópico
+695,Y84,"Malformação genital congénita masculina, outra"
+696,Y85,Hipertrofia benigna da próstata/ hiperplasia prostática benigna
+697,Y86,Hidrocele
+698,Y99,"Doença genital masculina, outra"
+699,Z01,Pobreza/problemas econômicos
+700,Z02,Problemas relacionados a água/alimentação
+701,Z03,Problemas de habitação/vizinhança
+702,Z04,Problema socio-cultural
+703,Z05,Problemas com condições de trabalho
+704,Z06,Problemas de desemprego
+705,Z07,Problemas relacionados com educação
+706,Z08,Problema relacionado com sistema de segurança social
+707,Z09,Problema de ordem legal
+708,Z10,Problema relacionado com sistema de saúde
+709,Z11,Problema relacionado com estar doente
+710,Z12,Problema de relacionamento com parceiro/ conjugal
+711,Z13,Problema comportamental do parceiro/  companheiro
+712,Z14,Problema por doença do parceiro/ companheiro
+713,Z15,Perda ou falecimento do parceiro/ companheiro
+714,Z16,Problema de relacionamento com criança
+715,Z18,Problema com criança doente
+716,Z19,Perda ou falecimento de criança
+717,Z20,Problema de relacionamento com familiares
+718,Z21,Problema comportamental de familiar
+719,Z22,Problema por doença familiar
+720,Z23,Perda/falecimento de familiar
+721,Z24,Problema de relacionamento com amigos
+722,Z25,Ato ou acontecimento violento
+723,Z27,Medo de problema social
+724,Z28,Limitação funcional/incapacidade
+725,Z29,Problema social NE

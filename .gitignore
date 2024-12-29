@@ -1,0 +1,28 @@
+venv
+.secrets
+.mypy_cache
+__pycache__
+*.pyc
+vector_database
+
+# Compressed vectordatabase
+*.rar
+*.zip
+
+# LaTeX file
+*.aux
+*.blg
+*.out
+*.bak
+*.tmp
+*.bbl
+*.log
+*.dvi
+*.synctex.gz
+.DS_Store
+*.fdb_latexmk
+*.fls
+*.pdf
+.idea
+article/icpc_2_semantic_search_study.bcf
+article/icpc_2_semantic_search_study.run.xml

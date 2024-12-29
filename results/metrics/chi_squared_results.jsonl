@@ -1,0 +1,2 @@
+{"sample": "Not weighted", "chi_square": 203.4274679761151, "p-value": 4.270676191623017e-35, "degrees_of_fredom": 15}
+{"sample": "Weighted", "chi_square": 651.271812014316, "p-value": 4.4409822154586154e-129, "degrees_of_fredom": 15}

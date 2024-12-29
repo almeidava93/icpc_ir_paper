@@ -1,0 +1,122 @@
+                                        Multiple Comparison of Means - Tukey HSD, FWER=0.05                                         
+                    group1                    ,                    group2                    ,meandiff,p-adj , lower , upper ,reject
+bm25_preprocessed|AP@10                       ,bm25_raw|AP@10                                ,-0.197  ,0.0   ,-0.2941,-0.0999,True  
+bm25_preprocessed|AP@10                       ,cohere_embeddings_v3.0_classification|AP@10   ,0.033   ,0.9988,-0.064 ,0.1301 ,False 
+bm25_preprocessed|AP@10                       ,cohere_embeddings_v3.0_clustering|AP@10       ,0.0414  ,0.9867,-0.0557,0.1384 ,False 
+bm25_preprocessed|AP@10                       ,cohere_embeddings_v3.0_search_document|AP@10  ,-0.026  ,0.9999,-0.1231,0.071  ,False 
+bm25_preprocessed|AP@10                       ,cohere_embeddings_v3.0_search_query|AP@10     ,0.0407  ,0.9885,-0.0563,0.1378 ,False 
+bm25_preprocessed|AP@10                       ,cohere_embeddings|AP@10                       ,-0.0171 ,1.0   ,-0.1142,0.08   ,False 
+bm25_preprocessed|AP@10                       ,gemini_embeddings_classification|AP@10        ,-0.0396 ,0.9914,-0.1367,0.0575 ,False 
+bm25_preprocessed|AP@10                       ,gemini_embeddings_clustering|AP@10            ,-0.0442 ,0.9752,-0.1412,0.0529 ,False 
+bm25_preprocessed|AP@10                       ,gemini_embeddings_retrieval_document|AP@10    ,-0.062  ,0.7062,-0.159 ,0.0351 ,False 
+bm25_preprocessed|AP@10                       ,gemini_embeddings_retrieval_query|AP@10       ,-0.0433 ,0.9794,-0.1404,0.0538 ,False 
+bm25_preprocessed|AP@10                       ,gemini_embeddings_semantic_similarity|AP@10   ,-0.0424 ,0.9829,-0.1395,0.0546 ,False 
+bm25_preprocessed|AP@10                       ,levenshtein_distance|AP@10                    ,-0.161  ,0.0   ,-0.258 ,-0.0639,True  
+bm25_preprocessed|AP@10                       ,openai_embeddings_text-embedding-3-large|AP@10,0.1013  ,0.0308,0.0042 ,0.1983 ,True  
+bm25_preprocessed|AP@10                       ,openai_embeddings_text-embedding-3-small|AP@10,0.0156  ,1.0   ,-0.0814,0.1127 ,False 
+bm25_preprocessed|AP@10                       ,openai_embeddings|AP@10                       ,0.0191  ,1.0   ,-0.078 ,0.1161 ,False 
+bm25_raw|AP@10                                ,cohere_embeddings_v3.0_classification|AP@10   ,0.2301  ,0.0   ,0.133  ,0.3271 ,True  
+bm25_raw|AP@10                                ,cohere_embeddings_v3.0_clustering|AP@10       ,0.2384  ,0.0   ,0.1413 ,0.3355 ,True  
+bm25_raw|AP@10                                ,cohere_embeddings_v3.0_search_document|AP@10  ,0.171   ,0.0   ,0.0739 ,0.2681 ,True  
+bm25_raw|AP@10                                ,cohere_embeddings_v3.0_search_query|AP@10     ,0.2378  ,0.0   ,0.1407 ,0.3348 ,True  
+bm25_raw|AP@10                                ,cohere_embeddings|AP@10                       ,0.1799  ,0.0   ,0.0828 ,0.277  ,True  
+bm25_raw|AP@10                                ,gemini_embeddings_classification|AP@10        ,0.1574  ,0.0   ,0.0603 ,0.2545 ,True  
+bm25_raw|AP@10                                ,gemini_embeddings_clustering|AP@10            ,0.1529  ,0.0   ,0.0558 ,0.2499 ,True  
+bm25_raw|AP@10                                ,gemini_embeddings_retrieval_document|AP@10    ,0.1351  ,0.0002,0.038  ,0.2321 ,True  
+bm25_raw|AP@10                                ,gemini_embeddings_retrieval_query|AP@10       ,0.1537  ,0.0   ,0.0567 ,0.2508 ,True  
+bm25_raw|AP@10                                ,gemini_embeddings_semantic_similarity|AP@10   ,0.1546  ,0.0   ,0.0575 ,0.2517 ,True  
+bm25_raw|AP@10                                ,levenshtein_distance|AP@10                    ,0.0361  ,0.9968,-0.061 ,0.1331 ,False 
+bm25_raw|AP@10                                ,openai_embeddings_text-embedding-3-large|AP@10,0.2983  ,0.0   ,0.2012 ,0.3954 ,True  
+bm25_raw|AP@10                                ,openai_embeddings_text-embedding-3-small|AP@10,0.2127  ,0.0   ,0.1156 ,0.3097 ,True  
+bm25_raw|AP@10                                ,openai_embeddings|AP@10                       ,0.2161  ,0.0   ,0.119  ,0.3132 ,True  
+cohere_embeddings_v3.0_classification|AP@10   ,cohere_embeddings_v3.0_clustering|AP@10       ,0.0083  ,1.0   ,-0.0888,0.1054 ,False 
+cohere_embeddings_v3.0_classification|AP@10   ,cohere_embeddings_v3.0_search_document|AP@10  ,-0.0591 ,0.7748,-0.1561,0.038  ,False 
+cohere_embeddings_v3.0_classification|AP@10   ,cohere_embeddings_v3.0_search_query|AP@10     ,0.0077  ,1.0   ,-0.0894,0.1048 ,False 
+cohere_embeddings_v3.0_classification|AP@10   ,cohere_embeddings|AP@10                       ,-0.0501 ,0.9268,-0.1472,0.0469 ,False 
+cohere_embeddings_v3.0_classification|AP@10   ,gemini_embeddings_classification|AP@10        ,-0.0726 ,0.4243,-0.1697,0.0245 ,False 
+cohere_embeddings_v3.0_classification|AP@10   ,gemini_embeddings_clustering|AP@10            ,-0.0772 ,0.3144,-0.1743,0.0199 ,False 
+cohere_embeddings_v3.0_classification|AP@10   ,gemini_embeddings_retrieval_document|AP@10    ,-0.095  ,0.0629,-0.1921,0.0021 ,False 
+cohere_embeddings_v3.0_classification|AP@10   ,gemini_embeddings_retrieval_query|AP@10       ,-0.0763 ,0.3343,-0.1734,0.0208 ,False 
+cohere_embeddings_v3.0_classification|AP@10   ,gemini_embeddings_semantic_similarity|AP@10   ,-0.0755 ,0.354 ,-0.1725,0.0216 ,False 
+cohere_embeddings_v3.0_classification|AP@10   ,levenshtein_distance|AP@10                    ,-0.194  ,0.0   ,-0.2911,-0.0969,True  
+cohere_embeddings_v3.0_classification|AP@10   ,openai_embeddings_text-embedding-3-large|AP@10,0.0682  ,0.5408,-0.0288,0.1653 ,False 
+cohere_embeddings_v3.0_classification|AP@10   ,openai_embeddings_text-embedding-3-small|AP@10,-0.0174 ,1.0   ,-0.1145,0.0797 ,False 
+cohere_embeddings_v3.0_classification|AP@10   ,openai_embeddings|AP@10                       ,-0.014  ,1.0   ,-0.111 ,0.0831 ,False 
+cohere_embeddings_v3.0_clustering|AP@10       ,cohere_embeddings_v3.0_search_document|AP@10  ,-0.0674 ,0.5636,-0.1645,0.0297 ,False 
+cohere_embeddings_v3.0_clustering|AP@10       ,cohere_embeddings_v3.0_search_query|AP@10     ,-0.0006 ,1.0   ,-0.0977,0.0965 ,False 
+cohere_embeddings_v3.0_clustering|AP@10       ,cohere_embeddings|AP@10                       ,-0.0585 ,0.7879,-0.1555,0.0386 ,False 
+cohere_embeddings_v3.0_clustering|AP@10       ,gemini_embeddings_classification|AP@10        ,-0.0809 ,0.2368,-0.178 ,0.0161 ,False 
+cohere_embeddings_v3.0_clustering|AP@10       ,gemini_embeddings_clustering|AP@10            ,-0.0855 ,0.1611,-0.1826,0.0116 ,False 
+cohere_embeddings_v3.0_clustering|AP@10       ,gemini_embeddings_retrieval_document|AP@10    ,-0.1033 ,0.024 ,-0.2004,-0.0062,True  
+cohere_embeddings_v3.0_clustering|AP@10       ,gemini_embeddings_retrieval_query|AP@10       ,-0.0846 ,0.1741,-0.1817,0.0124 ,False 
+cohere_embeddings_v3.0_clustering|AP@10       ,gemini_embeddings_semantic_similarity|AP@10   ,-0.0838 ,0.1873,-0.1809,0.0133 ,False 
+cohere_embeddings_v3.0_clustering|AP@10       ,levenshtein_distance|AP@10                    ,-0.2023 ,0.0   ,-0.2994,-0.1052,True  
+cohere_embeddings_v3.0_clustering|AP@10       ,openai_embeddings_text-embedding-3-large|AP@10,0.0599  ,0.7556,-0.0372,0.157  ,False 
+cohere_embeddings_v3.0_clustering|AP@10       ,openai_embeddings_text-embedding-3-small|AP@10,-0.0257 ,0.9999,-0.1228,0.0714 ,False 
+cohere_embeddings_v3.0_clustering|AP@10       ,openai_embeddings|AP@10                       ,-0.0223 ,1.0   ,-0.1194,0.0748 ,False 
+cohere_embeddings_v3.0_search_document|AP@10  ,cohere_embeddings_v3.0_search_query|AP@10     ,0.0668  ,0.58  ,-0.0303,0.1639 ,False 
+cohere_embeddings_v3.0_search_document|AP@10  ,cohere_embeddings|AP@10                       ,0.0089  ,1.0   ,-0.0882,0.106  ,False 
+cohere_embeddings_v3.0_search_document|AP@10  ,gemini_embeddings_classification|AP@10        ,-0.0136 ,1.0   ,-0.1106,0.0835 ,False 
+cohere_embeddings_v3.0_search_document|AP@10  ,gemini_embeddings_clustering|AP@10            ,-0.0181 ,1.0   ,-0.1152,0.079  ,False 
+cohere_embeddings_v3.0_search_document|AP@10  ,gemini_embeddings_retrieval_document|AP@10    ,-0.0359 ,0.9969,-0.133 ,0.0612 ,False 
+cohere_embeddings_v3.0_search_document|AP@10  ,gemini_embeddings_retrieval_query|AP@10       ,-0.0172 ,1.0   ,-0.1143,0.0798 ,False 
+cohere_embeddings_v3.0_search_document|AP@10  ,gemini_embeddings_semantic_similarity|AP@10   ,-0.0164 ,1.0   ,-0.1135,0.0807 ,False 
+cohere_embeddings_v3.0_search_document|AP@10  ,levenshtein_distance|AP@10                    ,-0.1349 ,0.0002,-0.232 ,-0.0378,True  
+cohere_embeddings_v3.0_search_document|AP@10  ,openai_embeddings_text-embedding-3-large|AP@10,0.1273  ,0.0008,0.0302 ,0.2244 ,True  
+cohere_embeddings_v3.0_search_document|AP@10  ,openai_embeddings_text-embedding-3-small|AP@10,0.0417  ,0.9856,-0.0554,0.1388 ,False 
+cohere_embeddings_v3.0_search_document|AP@10  ,openai_embeddings|AP@10                       ,0.0451  ,0.97  ,-0.052 ,0.1422 ,False 
+cohere_embeddings_v3.0_search_query|AP@10     ,cohere_embeddings|AP@10                       ,-0.0579 ,0.8009,-0.1549,0.0392 ,False 
+cohere_embeddings_v3.0_search_query|AP@10     ,gemini_embeddings_classification|AP@10        ,-0.0803 ,0.2484,-0.1774,0.0167 ,False 
+cohere_embeddings_v3.0_search_query|AP@10     ,gemini_embeddings_clustering|AP@10            ,-0.0849 ,0.17  ,-0.182 ,0.0122 ,False 
+cohere_embeddings_v3.0_search_query|AP@10     ,gemini_embeddings_retrieval_document|AP@10    ,-0.1027 ,0.0258,-0.1998,-0.0056,True  
+cohere_embeddings_v3.0_search_query|AP@10     ,gemini_embeddings_retrieval_query|AP@10       ,-0.084  ,0.1835,-0.1811,0.0131 ,False 
+cohere_embeddings_v3.0_search_query|AP@10     ,gemini_embeddings_semantic_similarity|AP@10   ,-0.0832 ,0.1972,-0.1803,0.0139 ,False 
+cohere_embeddings_v3.0_search_query|AP@10     ,levenshtein_distance|AP@10                    ,-0.2017 ,0.0   ,-0.2988,-0.1046,True  
+cohere_embeddings_v3.0_search_query|AP@10     ,openai_embeddings_text-embedding-3-large|AP@10,0.0605  ,0.7413,-0.0366,0.1576 ,False 
+cohere_embeddings_v3.0_search_query|AP@10     ,openai_embeddings_text-embedding-3-small|AP@10,-0.0251 ,1.0   ,-0.1222,0.072  ,False 
+cohere_embeddings_v3.0_search_query|AP@10     ,openai_embeddings|AP@10                       ,-0.0217 ,1.0   ,-0.1188,0.0754 ,False 
+cohere_embeddings|AP@10                       ,gemini_embeddings_classification|AP@10        ,-0.0225 ,1.0   ,-0.1196,0.0746 ,False 
+cohere_embeddings|AP@10                       ,gemini_embeddings_clustering|AP@10            ,-0.027  ,0.9999,-0.1241,0.07   ,False 
+cohere_embeddings|AP@10                       ,gemini_embeddings_retrieval_document|AP@10    ,-0.0448 ,0.9715,-0.1419,0.0522 ,False 
+cohere_embeddings|AP@10                       ,gemini_embeddings_retrieval_query|AP@10       ,-0.0262 ,0.9999,-0.1232,0.0709 ,False 
+cohere_embeddings|AP@10                       ,gemini_embeddings_semantic_similarity|AP@10   ,-0.0253 ,1.0   ,-0.1224,0.0718 ,False 
+cohere_embeddings|AP@10                       ,levenshtein_distance|AP@10                    ,-0.1438 ,0.0   ,-0.2409,-0.0468,True  
+cohere_embeddings|AP@10                       ,openai_embeddings_text-embedding-3-large|AP@10,0.1184  ,0.0031,0.0213 ,0.2155 ,True  
+cohere_embeddings|AP@10                       ,openai_embeddings_text-embedding-3-small|AP@10,0.0328  ,0.9989,-0.0643,0.1298 ,False 
+cohere_embeddings|AP@10                       ,openai_embeddings|AP@10                       ,0.0362  ,0.9967,-0.0609,0.1333 ,False 
+gemini_embeddings_classification|AP@10        ,gemini_embeddings_clustering|AP@10            ,-0.0046 ,1.0   ,-0.1016,0.0925 ,False 
+gemini_embeddings_classification|AP@10        ,gemini_embeddings_retrieval_document|AP@10    ,-0.0224 ,1.0   ,-0.1194,0.0747 ,False 
+gemini_embeddings_classification|AP@10        ,gemini_embeddings_retrieval_query|AP@10       ,-0.0037 ,1.0   ,-0.1008,0.0934 ,False 
+gemini_embeddings_classification|AP@10        ,gemini_embeddings_semantic_similarity|AP@10   ,-0.0028 ,1.0   ,-0.0999,0.0942 ,False 
+gemini_embeddings_classification|AP@10        ,levenshtein_distance|AP@10                    ,-0.1214 ,0.002 ,-0.2184,-0.0243,True  
+gemini_embeddings_classification|AP@10        ,openai_embeddings_text-embedding-3-large|AP@10,0.1409  ,0.0001,0.0438 ,0.2379 ,True  
+gemini_embeddings_classification|AP@10        ,openai_embeddings_text-embedding-3-small|AP@10,0.0552  ,0.8521,-0.0418,0.1523 ,False 
+gemini_embeddings_classification|AP@10        ,openai_embeddings|AP@10                       ,0.0587  ,0.7837,-0.0384,0.1557 ,False 
+gemini_embeddings_clustering|AP@10            ,gemini_embeddings_retrieval_document|AP@10    ,-0.0178 ,1.0   ,-0.1149,0.0793 ,False 
+gemini_embeddings_clustering|AP@10            ,gemini_embeddings_retrieval_query|AP@10       ,0.0009  ,1.0   ,-0.0962,0.098  ,False 
+gemini_embeddings_clustering|AP@10            ,gemini_embeddings_semantic_similarity|AP@10   ,0.0017  ,1.0   ,-0.0954,0.0988 ,False 
+gemini_embeddings_clustering|AP@10            ,levenshtein_distance|AP@10                    ,-0.1168 ,0.0039,-0.2139,-0.0197,True  
+gemini_embeddings_clustering|AP@10            ,openai_embeddings_text-embedding-3-large|AP@10,0.1454  ,0.0   ,0.0483 ,0.2425 ,True  
+gemini_embeddings_clustering|AP@10            ,openai_embeddings_text-embedding-3-small|AP@10,0.0598  ,0.7581,-0.0373,0.1569 ,False 
+gemini_embeddings_clustering|AP@10            ,openai_embeddings|AP@10                       ,0.0632  ,0.6742,-0.0339,0.1603 ,False 
+gemini_embeddings_retrieval_document|AP@10    ,gemini_embeddings_retrieval_query|AP@10       ,0.0187  ,1.0   ,-0.0784,0.1158 ,False 
+gemini_embeddings_retrieval_document|AP@10    ,gemini_embeddings_semantic_similarity|AP@10   ,0.0195  ,1.0   ,-0.0776,0.1166 ,False 
+gemini_embeddings_retrieval_document|AP@10    ,levenshtein_distance|AP@10                    ,-0.099  ,0.0402,-0.1961,-0.0019,True  
+gemini_embeddings_retrieval_document|AP@10    ,openai_embeddings_text-embedding-3-large|AP@10,0.1632  ,0.0   ,0.0661 ,0.2603 ,True  
+gemini_embeddings_retrieval_document|AP@10    ,openai_embeddings_text-embedding-3-small|AP@10,0.0776  ,0.305 ,-0.0195,0.1747 ,False 
+gemini_embeddings_retrieval_document|AP@10    ,openai_embeddings|AP@10                       ,0.081   ,0.2352,-0.016 ,0.1781 ,False 
+gemini_embeddings_retrieval_query|AP@10       ,gemini_embeddings_semantic_similarity|AP@10   ,0.0008  ,1.0   ,-0.0962,0.0979 ,False 
+gemini_embeddings_retrieval_query|AP@10       ,levenshtein_distance|AP@10                    ,-0.1177 ,0.0034,-0.2148,-0.0206,True  
+gemini_embeddings_retrieval_query|AP@10       ,openai_embeddings_text-embedding-3-large|AP@10,0.1445  ,0.0   ,0.0475 ,0.2416 ,True  
+gemini_embeddings_retrieval_query|AP@10       ,openai_embeddings_text-embedding-3-small|AP@10,0.0589  ,0.7779,-0.0382,0.156  ,False 
+gemini_embeddings_retrieval_query|AP@10       ,openai_embeddings|AP@10                       ,0.0623  ,0.6964,-0.0347,0.1594 ,False 
+gemini_embeddings_semantic_similarity|AP@10   ,levenshtein_distance|AP@10                    ,-0.1185 ,0.003 ,-0.2156,-0.0214,True  
+gemini_embeddings_semantic_similarity|AP@10   ,openai_embeddings_text-embedding-3-large|AP@10,0.1437  ,0.0   ,0.0466 ,0.2408 ,True  
+gemini_embeddings_semantic_similarity|AP@10   ,openai_embeddings_text-embedding-3-small|AP@10,0.0581  ,0.7963,-0.039 ,0.1552 ,False 
+gemini_embeddings_semantic_similarity|AP@10   ,openai_embeddings|AP@10                       ,0.0615  ,0.7174,-0.0356,0.1586 ,False 
+levenshtein_distance|AP@10                    ,openai_embeddings_text-embedding-3-large|AP@10,0.2622  ,0.0   ,0.1651 ,0.3593 ,True  
+levenshtein_distance|AP@10                    ,openai_embeddings_text-embedding-3-small|AP@10,0.1766  ,0.0   ,0.0795 ,0.2737 ,True  
+levenshtein_distance|AP@10                    ,openai_embeddings|AP@10                       ,0.18    ,0.0   ,0.0829 ,0.2771 ,True  
+openai_embeddings_text-embedding-3-large|AP@10,openai_embeddings_text-embedding-3-small|AP@10,-0.0856 ,0.1595,-0.1827,0.0115 ,False 
+openai_embeddings_text-embedding-3-large|AP@10,openai_embeddings|AP@10                       ,-0.0822 ,0.2142,-0.1793,0.0149 ,False 
+openai_embeddings_text-embedding-3-small|AP@10,openai_embeddings|AP@10                       ,0.0034  ,1.0   ,-0.0937,0.1005 ,False 

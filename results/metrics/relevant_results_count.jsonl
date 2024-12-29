@@ -1,0 +1,16 @@
+{"Model": "bm25_raw", "relevant-results-present": 214, "relevant-results-absent": 184}
+{"Model": "bm25_preprocessed", "relevant-results-present": 297, "relevant-results-absent": 101}
+{"Model": "levenshtein_distance", "relevant-results-present": 225, "relevant-results-absent": 173}
+{"Model": "openai_embeddings", "relevant-results-present": 314, "relevant-results-absent": 84}
+{"Model": "openai_embeddings_text-embedding-3-small", "relevant-results-present": 312, "relevant-results-absent": 86}
+{"Model": "openai_embeddings_text-embedding-3-large", "relevant-results-present": 341, "relevant-results-absent": 57}
+{"Model": "cohere_embeddings", "relevant-results-present": 303, "relevant-results-absent": 95}
+{"Model": "cohere_embeddings_v3.0_search_document", "relevant-results-present": 287, "relevant-results-absent": 111}
+{"Model": "cohere_embeddings_v3.0_search_query", "relevant-results-present": 314, "relevant-results-absent": 84}
+{"Model": "cohere_embeddings_v3.0_classification", "relevant-results-present": 314, "relevant-results-absent": 84}
+{"Model": "cohere_embeddings_v3.0_clustering", "relevant-results-present": 314, "relevant-results-absent": 84}
+{"Model": "gemini_embeddings_semantic_similarity", "relevant-results-present": 290, "relevant-results-absent": 108}
+{"Model": "gemini_embeddings_retrieval_query", "relevant-results-present": 290, "relevant-results-absent": 108}
+{"Model": "gemini_embeddings_retrieval_document", "relevant-results-present": 274, "relevant-results-absent": 124}
+{"Model": "gemini_embeddings_classification", "relevant-results-present": 288, "relevant-results-absent": 110}
+{"Model": "gemini_embeddings_clustering", "relevant-results-present": 284, "relevant-results-absent": 114}
