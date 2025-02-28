@@ -2,7 +2,7 @@
 
 ![](wordcloud.png)
  
-This repository contains the data and code for the study "International Classification of Primary Care (ICPC-2) and search engines: an exploration of three algorithms for information retrieval to aid medical coding" published at XXX. The full article is available [here](about:blank).
+This repository contains the data and code for the study "International Classification of Primary Care (ICPC-2) and search engines: an exploration of three algorithms for information retrieval to aid medical coding" published at the **Journal of Medical Artificial Intelligence**. The full article is available **[here](https://dx.doi.org/10.21037/jmai-24-341)**.
 
 ## How to use this repository
 
