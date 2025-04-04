@@ -1,0 +1,100 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Source code for the paper 'International Classification of
+  Primary Care (ICPC-2) and search engines: an exploration
+  of three algorithms for information retrieval to aid
+  medical coding'
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Vinicius
+    family-names: Anjos de Almeida
+    email: vinicius.almeida@alumni.usp.br
+    affiliation: University of São Paulo
+    orcid: 'https://orcid.org/0009-0001-1273-586X'
+identifiers:
+  - type: doi
+    value: 10.21037/jmai-24-341
+  - type: url
+    value: 'https://jmai.amegroups.org/article/view/9766'
+repository-code: 'https://github.com/almeidava93/icpc_ir_paper'
+abstract: >-
+  Background: Medical coding is an essential process to
+  collect structured data in healthcare. The International
+  Classification of Primary Care, 2nd edition (ICPC-2), is
+  more concise and appropriate for primary care compared to
+  other classifications. However, healthcare professionals
+  still struggle to correctly attribute codes in various
+  clinical scenarios. Modern tools are necessary to help
+  efficiently and accurately find the right codes. This
+  study’s goal was to evaluate and compare three different
+  information retrieval algorithms for retrieving ICPC-2
+  codes. 
+
+  Methods: Three different strategies for information
+  retrieval were compared. The strategies include BM25,
+  Levenshtein distance, and semantic search with embeddings
+  from Large Language Models (LLMs) from different
+  providers. As embedding models, we included models from
+  OpenAI (text-embedding- ada-002, text-embedding-3-small,
+  and text-embedding-3-large), Cohere
+  (embed-multilingual-v2.0, and embed-multilingual-v3.0 with
+  the subtypes search_document, search_query,
+  classification, and clustering), and Gemini (embedding-001
+  with the subtypes semantic_similarity, retrieval_query,
+  retrieval_document, classification, and clustering). An
+  official thesaurus for ICPC-2 codes in Brazilian
+  Portuguese was used to develop a search engine. It was
+  made publicly available and shared through social media
+  with primary care professionals for data collection. A
+  total of 11,868 queries were collected, of which 7,671
+  (64.6%) were unique. A random sample of 437 unique
+  expressions (5.7% of the unique queries) was annotated
+  with ICPC- 2 through peer review. Annotation involved
+  selecting the relevant ICPC-2 codes for each query. After
+  this process, 398 entries (5.2% of the unique queries)
+  were included in the evaluation dataset. Precision at k
+  (P@k) and average precision at k (AP@k) were used as
+  evaluation metrics, computed for each query and averaged
+  over all queries. The analysis was conducted in a sample
+  both weighted and non-weighted for query frequency.
+  Analysis of variance (ANOVA) one-way and Tukey’s tests
+  were used for hypothesis testing. 
+
+  Results: The evaluation dataset with 398 queries encoded
+  with ICPC-2 was used to evaluate the results of the three
+  different information retrieval algorithms and of the
+  different models. Semantic search with embeddings from
+  LLMs outperformed BM25 and Levenshtein distance in all
+  assessed metrics: P@1, P@5, P@10, AP@1, AP@5, AP@10 (P
+  value <0.001). When comparing different embedding models,
+  the OpenAI model performed better than the others in most
+  metrics. The OpenAI model text-embedding-3-large showed at
+  least one relevant result in the top 10 in 85.7% of the
+  queries in the non-weighted sample and in 81.4% of the
+  queries in the weighted sample. The BM25 algorithm
+  combined with query preprocessing performed similarly to
+  the semantic search in the AP@5 and AP@10 metrics. 
+
+  Conclusions: Semantic search with embeddings from LLMs
+  seems to perform better than BM25 and Levenshtein distance
+  for retrieving ICPC-2 codes in the Brazilian Portuguese
+  language. It is a promising approach for aiding healthcare
+  professionals in medical coding. The BM25 algorithm
+  combined with query preprocessing is an interesting option
+  that can perform similarly to semantic search in some
+  metrics, although it has some additional limitations.
+keywords:
+  - International Classification of Primary Care (ICPC)
+  - Electronic health records (EHRs)
+  - Ranking algorithms
+  - Natural language processing (NLP)
+  - Information retrieval algorithms
+license: MIT
+commit: ' d01a844'
+date-released: '2024-12-29'
