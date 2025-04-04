@@ -1,5 +1,7 @@
 # International Classification of Primary Care (ICPC-2) and search engines: an exploration of three algorithms for information retrieval to aid medical coding
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15151092.svg)](https://doi.org/10.5281/zenodo.15151092)
+
 ![](wordcloud.png)
  
 This repository contains the data and code for the study "International Classification of Primary Care (ICPC-2) and search engines: an exploration of three algorithms for information retrieval to aid medical coding" published at the **Journal of Medical Artificial Intelligence**. The full article is available **[here](https://jmai.amegroups.org/article/view/9766)**.
@@ -52,3 +54,18 @@ In the `data` folder, there are six files.
 - `query_history.csv`: unique expressions queried in the search engine during the study period.
 - `query_value_counts.csv`: unique expressions with their value counts. This was used to weight the computed metrics with the query frequency.
 - `eval_dataset.csv`: contains the selected queries, each reviewer annotation and the selected codes after discussion and consensus between reviewers in the `relevant_results` column.
+
+## How to cite this repository
+
+```
+@software{Anjos_de_Almeida_Source_code_for_2024,
+author = {de Almeida, Vinicius Anjos},
+license = {MIT},
+month = dec,
+title = {{Source code for the paper 'International Classification of Primary Care (ICPC-2) and search engines: an exploration of three algorithms for information retrieval to aid medical coding'}},
+url = {https://github.com/almeidava93/icpc_ir_paper},
+doi = {https://doi.org/10.5281/zenodo.15151092},
+year = {2024}
+}
+```
+

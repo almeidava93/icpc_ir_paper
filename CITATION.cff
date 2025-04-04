@@ -19,9 +19,7 @@ authors:
     orcid: 'https://orcid.org/0009-0001-1273-586X'
 identifiers:
   - type: doi
-    value: 10.21037/jmai-24-341
-  - type: url
-    value: 'https://jmai.amegroups.org/article/view/9766'
+    value: 10.5281/zenodo.15151092
 repository-code: 'https://github.com/almeidava93/icpc_ir_paper'
 abstract: >-
   Background: Medical coding is an essential process to
